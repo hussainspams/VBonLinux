@@ -1,0 +1,42 @@
+INSTALL DOCKER: https://docs.docker.com/engine/install/ubuntu/
+
+sudo apt-get remove docker docker-engine docker.io containerd runc
+sudo apt-get update
+sudo apt-get install \
+ca-certificates \
+curl \
+gnupg \
+lsb-release
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+echo \
+"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+INSTALL HONEY GAIN: https://hub.docker.com/r/honeygain/honeygain
+
+docker run honeygain/honeygain -tou-accept -email hussain.ehomeautomation@gmail.com -pass Sameena@123 -device test1
+
+INSTALL PEER2PROFIT: https://peer2profit.io/news/console-client-instructions-for-linux
+
+https://dashboard.peer2profit.app/download
+
+p2pclient --login hussain.spams@gmail.com
+
+INSTALL IPROYAL: https://hub.docker.com/r/iproyal/pawns-cli
+
+docker pull iproyal/pawns-cli:latest
+
+docker run --restart=always iproyal/pawns-cli:latest -email=hussain.spams@gmail.com -password=t9PDqDRRp -device-name=linuslite -accept-tos
+
+INSTALL PACKET STREAM: https://packetstream.io/dashboard/download
+
+sudo docker stop watchtower; sudo docker rm watchtower; sudo docker rmi containrrr/watchtower; sudo docker stop psclient; sudo docker rm psclient; sudo docker rmi packetstream/psclient; sudo docker run -d --restart=always -e CID=1df8 --name psclient packetstream/psclient:latest && sudo docker run -d --restart=always --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --cleanup --include-stopped --revive-stopped --interval 60 psclient
+
+INSTALL EARNAPP: https://earnapp.com/faq#installation-instructions
+
+wget -qO- https://brightdata.com/static/earnapp/install.sh > /tmp/earnapp.sh && sudo bash /tmp/earnapp.sh
+
+hussain.spams@gmail.com & maleka123
