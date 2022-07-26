@@ -1,0 +1,8 @@
+OTOHITS
+
+docker run -e APPLICATION_KEY=8674400f-b775-4e52-98b3-43880d2f287f otohits/app:latest
+
+FEELSURF
+
+https://www.feelingsurf.fr/surf
+DOWNLOAD the .DEB file and run the application
