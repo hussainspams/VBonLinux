@@ -40,3 +40,7 @@ INSTALL EARNAPP: https://earnapp.com/faq#installation-instructions
 wget -qO- https://brightdata.com/static/earnapp/install.sh > /tmp/earnapp.sh && sudo bash /tmp/earnapp.sh
 
 hussain.spams@gmail.com & maleka123
+
+INSTALL Traffmonetizer: https://app.traffmonetizer.com/dashboard
+
+docker run -d --name tm traffmonetizer/cli_v2 start accept --token UNbxEFYYICoKj1GPWYrNHcwzm27piEzrQ8Zrgfbw+Q0=
