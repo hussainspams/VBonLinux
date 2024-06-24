@@ -44,3 +44,9 @@ hussain.spams@gmail.com & maleka123
 INSTALL Traffmonetizer: https://app.traffmonetizer.com/dashboard
 
 docker run -d --name tm traffmonetizer/cli_v2 start accept --token UNbxEFYYICoKj1GPWYrNHcwzm27piEzrQ8Zrgfbw+Q0=
+
+
+INSTALL Repocket: https://app.repocket.com/
+
+docker run --name repocket -e RP_EMAIL=hussain.spams@gmail.com -e RP_API_KEY=2pzIbibn2oUzo6gwIOczZDaZRDI2 -d --restart=always repocket/repocket
+
