@@ -48,5 +48,5 @@ docker run -d --name tm traffmonetizer/cli_v2 start accept --token UNbxEFYYICoKj
 
 INSTALL Repocket: https://app.repocket.com/
 
-docker run --name repocket -e RP_EMAIL=hussain.spams@gmail.com -e RP_API_KEY=2pzIbibn2oUzo6gwIOczZDaZRDI2 -d --restart=always repocket/repocket
+docker run --name repocket -e RP_EMAIL=hussain.spams@gmail.com -e RP_API_KEY=7a7c37a0-6e93-47bb-904d-0375d928bfa1 -d --restart=always repocket/repocket
 
